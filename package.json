@@ -19,5 +19,8 @@
     "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "^11.1.0",
     "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "dev": "nodemon --watch ./src/controller.js --exec node app.js"
   }
 }
